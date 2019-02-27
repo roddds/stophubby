@@ -5,8 +5,10 @@
   "homepage": "https://stophubby.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "lodash.sample": "^4.2.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-motion": "^0.5.2",
     "react-scripts": "2.1.5"
   },
   "scripts": {
