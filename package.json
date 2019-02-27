@@ -2,7 +2,7 @@
   "name": "stophubby",
   "version": "0.1.0",
   "private": true,
-  "homepage": "stophubby.com",
+  "homepage": "https://stophubby.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "lodash.sample": "^4.2.1",
