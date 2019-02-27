@@ -1,13 +1,13 @@
 {
-  "main.css": "/stophubby/static/css/main.6c1f9916.chunk.css",
-  "main.js": "/stophubby/static/js/main.e3ed9157.chunk.js",
-  "main.js.map": "/stophubby/static/js/main.e3ed9157.chunk.js.map",
-  "runtime~main.js": "/stophubby/static/js/runtime~main.15466754.js",
-  "runtime~main.js.map": "/stophubby/static/js/runtime~main.15466754.js.map",
-  "static/js/2.c88c70e5.chunk.js": "/stophubby/static/js/2.c88c70e5.chunk.js",
-  "static/js/2.c88c70e5.chunk.js.map": "/stophubby/static/js/2.c88c70e5.chunk.js.map",
-  "index.html": "/stophubby/index.html",
-  "precache-manifest.ae84e177cb5721f83646ed19521725b0.js": "/stophubby/precache-manifest.ae84e177cb5721f83646ed19521725b0.js",
-  "service-worker.js": "/stophubby/service-worker.js",
-  "static/css/main.6c1f9916.chunk.css.map": "/stophubby/static/css/main.6c1f9916.chunk.css.map"
+  "main.css": "/static/css/main.6c1f9916.chunk.css",
+  "main.js": "/static/js/main.d024ddff.chunk.js",
+  "main.js.map": "/static/js/main.d024ddff.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.c88c70e5.chunk.js": "/static/js/2.c88c70e5.chunk.js",
+  "static/js/2.c88c70e5.chunk.js.map": "/static/js/2.c88c70e5.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.dd796ea870d59c4e283d76752d12167a.js": "/precache-manifest.dd796ea870d59c4e283d76752d12167a.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.6c1f9916.chunk.css.map": "/static/css/main.6c1f9916.chunk.css.map"
 }
