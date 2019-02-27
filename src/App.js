@@ -28,19 +28,14 @@ const ALTERNATIVES = [
   "names"
 ];
 
-const App = props => {
-  let options = [...ALTERNATIVES];
 
-  const [text, setText] = useState(sample(options));
+const App = props => {
+  const [text, setText] = useState(sample(ALTERNATIVES));
 
   useEffect(() => {
     const timer = window.setInterval(() => {
-      if (!options.length) {
-        options = [...ALTERNATIVES];
-      }
-
-      setText(sample(options));
-    }, 3000);
+      setText(sample(ALTERNATIVES));
+    }, 1500);
 
     return () => window.clearInterval(timer);
   }, []);
