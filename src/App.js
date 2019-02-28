@@ -63,8 +63,9 @@ const App = props => {
 
       <h3>NO YOU CAN'T CALL HIM DADDY EITHER</h3>
       <small style={{ fontSize: "9px" }}>
-        Made with hate by <a href="https://github.com/roddds">@roddds</a> with
-        contributions from <a href="https://github.com/jessapp">@jessapp</a>
+        Made with hate by<a href="https://github.com/roddds">@roddds</a> with
+        contributions from <a href="https://github.com/jessapp">@jessapp</a> and
+        <a href="https://github.com/norasf">@norasf</a>.
       </small>
     </div>
   );
