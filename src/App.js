@@ -4,13 +4,15 @@ import sample from "lodash.sample";
 import "./App.css";
 
 const ALTERNATIVES = [
+  // DON'T BOTHER WITH TITLE CASE
+  // EVERYTHING WILL BE DISPLAYED AS UPPERCASE
   "bro",
   "dude",
   "pal",
   "mate",
   "sir",
   "husbando",
-  "person who I have married",
+  "person who i have married",
   "buddy",
   "friendo",
   "cunt",
@@ -18,14 +20,20 @@ const ALTERNATIVES = [
   "motherfucker",
   "the impreginator",
   "my boyfriend",
-  "Princess Jasmine",
+  "princess jasmine",
   "his mother's name",
-  "Benedict Cumberbatch",
-  "Big Mac",
-  "Poop emoji",
+  "benedict cumberbatch",
+  "big mac",
+  "poop emoji",
   "old man",
   "his name",
-  "names"
+  "names",
+  "githubby",
+  "hey dumbass",
+  "fuckhead",
+  "mother hubbard",
+  "prime minister",
+  "my future late husband",
 ];
 
 
