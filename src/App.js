@@ -34,6 +34,9 @@ const ALTERNATIVES = [
   "mother hubbard",
   "prime minister",
   "my future late husband",
+  "rat bastard",
+  "emergency contact",
+  "bucko",
 ];
 
 
