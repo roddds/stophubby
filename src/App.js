@@ -37,6 +37,7 @@ const ALTERNATIVES = [
   "rat bastard",
   "emergency contact",
   "bucko",
+  "male gaze",
 ];
 
 
