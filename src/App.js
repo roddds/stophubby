@@ -15,9 +15,7 @@ const ALTERNATIVES = [
   "person who i have married",
   "buddy",
   "friendo",
-  "cunt",
   "this asshole over here",
-  "motherfucker",
   "the impreginator",
   "my boyfriend",
   "princess jasmine",
@@ -37,7 +35,7 @@ const ALTERNATIVES = [
   "rat bastard",
   "emergency contact",
   "bucko",
-  "male gaze",
+  "shitstain",
 ];
 
 
