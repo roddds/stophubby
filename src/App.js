@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Ticker from "./Ticker";
-import sample from "lodash.sample";
+import shuffle from "lodash.shuffle";
 import "./App.css";
 
 const ALTERNATIVES = [
@@ -42,15 +42,18 @@ const ALTERNATIVES = [
 
 
 const App = props => {
-  const [text, setText] = useState(sample(ALTERNATIVES));
+  const list = shuffle([...ALTERNATIVES]);
+  const [index, setIndex] = useState(0);
+
+  const currentText = list[(index + list.length) % list.length];
 
   useEffect(() => {
     const timer = window.setInterval(() => {
-      setText(sample(ALTERNATIVES));
+      setIndex(index + 1);
     }, 1500);
 
     return () => window.clearInterval(timer);
-  }, []);
+  }, [index]);
 
   return (
     <div className="App">
@@ -59,7 +62,7 @@ const App = props => {
 
       <h2>HERE'S WHAT YOU CAN CALL HIM INSTEAD:</h2>
       <h1>
-        <Ticker text={text} />
+        <Ticker text={ currentText } />
       </h1>
 
       <h3>NO YOU CAN'T CALL HIM DADDY EITHER</h3>
