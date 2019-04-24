@@ -16,10 +16,11 @@ code {
 
 
 .container {
-  height: 30px;
+  height: 10vw;
   position: relative;
   padding: 20px 0;
   text-align: center;
+  font-size: 8vw;
 }
 .item {
   width: 100%;
