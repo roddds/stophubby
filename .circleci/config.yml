@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.9
+      - image: circleci/node:13.6
 
     working_directory: ~/repo
 
@@ -16,7 +16,7 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - "74:48:21:6e:ad:8e:68:d9:73:95:46:7b:56:7f:2a:1c"
+            - '74:48:21:6e:ad:8e:68:d9:73:95:46:7b:56:7f:2a:1c'
 
       # Download and cache dependencies
       - restore_cache:
