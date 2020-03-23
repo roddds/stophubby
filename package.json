@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://stophubby.com/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "lodash.shuffle": "^4.2.0",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-motion": "^0.5.2",
-    "react-scripts": "2.1.5"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
